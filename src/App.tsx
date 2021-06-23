@@ -3,11 +3,10 @@ import Routes from './routes';
 
 import './styles/global.scss';
 
-import {AuthContextProvider} from './contexts/AuthContext';
-
+import { AuthContextProvider } from './contexts/AuthContext';
 
 function App() {
-   return (
+  return (
     <BrowserRouter>
       <AuthContextProvider>
         <Routes />
