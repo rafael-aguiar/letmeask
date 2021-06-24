@@ -34,7 +34,7 @@ const NewRoom: React.FC = () => {
     history.push(`/rooms/${firebaseRoom.key}`);
   }
   return (
-    <div id="new-room">
+    <div id="page-new-room">
       <aside>
         <img
           src={illustrationImg}

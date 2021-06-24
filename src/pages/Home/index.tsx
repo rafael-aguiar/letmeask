@@ -43,7 +43,7 @@ const Home: React.FC = () => {
   }
 
   return (
-    <div id="home">
+    <div id="page-home">
       <aside>
         <img
           src={illustrationImg}
